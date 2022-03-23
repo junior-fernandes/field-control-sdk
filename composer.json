@@ -1,0 +1,19 @@
+{
+	"name": "junior-fernandes/field-control-sdk",
+	"description": "Field Control SDK",
+	"keywords": ["field", "field control", "api", "sdk"],
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Bling\\": "src/"
+		}
+	},
+	"require": {
+		"guzzlehttp/guzzle": "^7.0.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.0",
+		"symfony/dotenv": "^5.0",
+		"nesbot/carbon": "^2.33"
+	}
+}
